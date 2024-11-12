@@ -36,12 +36,16 @@ public class StudentData {
 
 	public void dislplay() {
 		System.out.println("");
-		System.out.print("Student with roll number " + rollno + " and name " + sname + " has " + percentage + "% and grade is ");
+		System.out.print(
+				"Student with roll number " + rollno + " and name " + sname + " has " + percentage + "% and grade is ");
 		displayGrade();
 
 	}
+
 	public String toString() {
-		return "Name"+sname+"roll"+rollno+"percentage"+percentage;}
+		return "Name" + sname + "roll" + rollno + "percentage" + percentage;
+	}
+
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
@@ -70,12 +74,12 @@ public class StudentData {
 		StudentData obj = new StudentData();
 		obj.setData(name, rollno, sub1, sub2, sub3, sub4, sub5);
 		obj.calculatePercentage();
-		
+
 		System.out.println(obj);
-		
+
 		obj.dislplay();
 		scanner.close();
-		
+
 	}
 
 }

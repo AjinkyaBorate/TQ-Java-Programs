@@ -30,6 +30,7 @@ class Circle extends MyShape {
 	public void area() {
 		area = pi * r * r;
 	}
+
 	@Override
 	public String toString() {
 		return "Area of circle is: " + area;
@@ -46,9 +47,10 @@ class Rectangle extends MyShape {
 	}
 
 	public void area() {
-		area = 2*l * b;
+		area = 2 * l * b;
 	}
-@Override
+
+	@Override
 	public String toString() {
 		return "Area of Rectangle is: " + area;
 	}

@@ -7,7 +7,6 @@ public class TryFinally {
 			String s = "123";
 			@SuppressWarnings("unused")
 			int n = Integer.parseInt(s);
-
 			System.out.println("After try");
 		} finally {
 			System.out.println("in finally");

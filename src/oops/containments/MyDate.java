@@ -5,7 +5,7 @@ public class MyDate {
 	MyDate(){
 		System.out.println("Paraneterized Constructor");
 	}
-	MyDate(int dd, int mm,int yy){
+	public MyDate(int dd, int mm,int yy){
 		this.dd=dd;
 		this.mm=mm;
 		this.yy=yy;

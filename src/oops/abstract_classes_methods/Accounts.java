@@ -21,7 +21,6 @@ public class Accounts {
 
 abstract class BankAccount {
 	abstract void deposite();
-
 	abstract void withdraw();
 }
 

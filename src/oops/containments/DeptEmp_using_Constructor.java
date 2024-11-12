@@ -10,7 +10,7 @@ check the hashcode generated for department in 1st and 2 nd object
 Also print the details of all Employees
  * */
 
-public class DeptEmp_using_Constructor {
+public class DeptEmp_using_Constructor{
 	int did;
 	String deptName;
 	DeptEmp_using_Constructor(int did,String deptName){
@@ -24,5 +24,7 @@ public class DeptEmp_using_Constructor {
 		DeptEmp_using_Constructor obj =new DeptEmp_using_Constructor(123,"Computer");
 		System.out.println(obj);
 	}
+	//for sort by deptname using comparable
+	
 
 }
