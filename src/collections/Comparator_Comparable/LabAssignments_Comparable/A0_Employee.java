@@ -1,4 +1,4 @@
-package collections.Comparator_Comparable.LabAssignments;
+package collections.Comparator_Comparable.LabAssignments_Comparable;
 import oops.containments.DeptEmp_using_Constructor;
 import oops.containments.MyDate;
 /*1.Let employee class have a department object. Iterate through aarraylist of employees.
@@ -62,3 +62,4 @@ public class A0_Employee implements Comparable<A0_Employee> {
 		return this.dname.compareTo(o.dname);
 	}
 }
+

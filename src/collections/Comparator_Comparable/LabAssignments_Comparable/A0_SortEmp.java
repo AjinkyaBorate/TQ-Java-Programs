@@ -1,4 +1,4 @@
-package collections.Comparator_Comparable.LabAssignments;
+package collections.Comparator_Comparable.LabAssignments_Comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

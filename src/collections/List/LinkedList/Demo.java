@@ -39,9 +39,9 @@ public class Demo {
 		
 		list.pop();
 		
-//		System.out.println(list.getFirst());
-//		System.out.println(list.getLast());
-//		System.out.println(list.get(1));
+		System.out.println(list.getFirst());
+		System.out.println(list.getLast());
+		System.out.println(list.get(1));
 
 		
 	}
