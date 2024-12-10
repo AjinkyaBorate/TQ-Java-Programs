@@ -1,9 +1,9 @@
 package Mini_Project;
 
 public class Department {
-	int deptno;
-	String deptName;
-	String location;
+	private int deptno;
+	private String deptName;
+	private String location;
 
 	public Department(int deptno, String deptName, String location) {
 		this.deptno = deptno;

@@ -13,7 +13,6 @@ public class A8 {
 					arr[j] = temp;
 				}
 			}
-
 		}
 		for (int i = 0; i < size; i++) {
 			System.out.print(arr[i] + " ");

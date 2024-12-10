@@ -1,5 +1,7 @@
 package string;
 
+import java.util.Arrays;
+
 //1. Reverse the string word by word
 public class B1_ReverseStringWordByWord {
 	public static void main(String[] args) {
@@ -10,15 +12,13 @@ public class B1_ReverseStringWordByWord {
 	}
 
 	public static String reverseWords(String str) {
-		String[] words = str.trim().split("\\s+");
+		String[] words = str.split(" ");
+		System.out.println(Arrays.toString(words));
 		String result = "";
 		for (int i = words.length - 1; i >= 0; i--) {
 			result += words[i];
-			if (i > 0) {
-				result += " ";
-			}
+			result += " ";
 		}
-
 		return result;
 	}
 }

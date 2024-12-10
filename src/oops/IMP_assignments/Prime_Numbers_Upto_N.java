@@ -8,11 +8,10 @@ public class Prime_Numbers_Upto_N {
 		if(num<=1) {
 			return false;
 		}
-		for(int i=2;i<num;i++) {
+		for(int i=2;i<num/2;i++) {
 			if (num%i==0) {
 				return false;
 			}
-			
 		}
 		return true;
 	}

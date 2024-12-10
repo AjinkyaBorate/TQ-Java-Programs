@@ -25,7 +25,7 @@ public class A11_HighestFreqCharInString {
 	}
 
 	public static void main(String[] args) {
-		String str = "Ajinkaiaaaa";
+		String str = "AjinkyAA";
 		highestFrequencyChar(str);
 	}
 

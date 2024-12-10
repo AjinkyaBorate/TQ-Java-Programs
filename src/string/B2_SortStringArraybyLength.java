@@ -17,7 +17,7 @@ public class B2_SortStringArraybyLength {
 	}
 
 	public static void main(String[] args) {
-		String str[] = { "Abc", "zefgq", "hi", "yqrst" };
+		String str[] = { "hbc", "zefgq", "ahi", "yqrst" };
 		sortstrByLength(str);
 		for (int i = 0; i < str.length; i++) {
 			String st = str[i];

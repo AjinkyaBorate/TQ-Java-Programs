@@ -5,8 +5,8 @@ public class B5_ToggleFirstCharOfEveryWordInString {
 
 	public static void main(String[] args) {
 
-		String input = "hi hello how are you";
-		String[] words = input.split("\\s+");
+		String input = "hi Hello how are you";
+		String[] words = input.split(" ");
 
 		String result = "";
 		for (int i = 0; i < words.length; i++) {

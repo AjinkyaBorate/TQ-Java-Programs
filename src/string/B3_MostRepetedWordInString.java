@@ -12,7 +12,7 @@ public class B3_MostRepetedWordInString {
 
 		input = input.toLowerCase();
 
-		String[] words = input.split("\\s+");
+		String[] words = input.split(" ");
 
 		String mostRepeatedWord = "";
 		int maxCount = 0;

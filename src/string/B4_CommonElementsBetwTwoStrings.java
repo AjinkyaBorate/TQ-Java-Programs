@@ -4,7 +4,7 @@ public class B4_CommonElementsBetwTwoStrings {
 
 	public static void main(String[] args) {
 		String[] array1 = {"aaa","aa","ssss"};
-		String[] array2 = {"aaa","ss","www"};
+		String[] array2 = {"aaa","ss","aa"};
 		
 		System.out.println("Common elements between the two arrays are:");
 		for (int i = 0; i < array1.length; i++) {

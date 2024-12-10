@@ -17,11 +17,10 @@ import java.util.ArrayList;
  *  - Display all employees
  *  - Display employee by providing id ,name,dept*/
 public class Employee {
-	private static double basicsal;
-	int empID;
-	String empName;
-	double basicSal, pf, hra, da, netSal;
-	ArrayList<String> skills;
+	private int empID;
+	private String empName;
+	private double basicSal, pf, hra, da, netSal;
+	private ArrayList<String> skills;
 	Department dept;
 
 	public Employee(int empID, String empName, double basicSal, Department dept, ArrayList<String> skills) {
